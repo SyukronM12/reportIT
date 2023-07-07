@@ -7,7 +7,7 @@ class Home extends BaseController
     public function index()
     {
         $data = [
-            'judul' => 'Dashboard',
+            'judul' => 'ReportIT',
             'page' => 'v_home',
         ];
         return view('v_template', $data);
